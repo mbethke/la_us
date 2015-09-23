@@ -1,0 +1,61 @@
+// Lao-US keymap, by Matthias Bethke <matthias@towiski.de>
+// vim:set filetype=xkb expandtab tabstop=4 shiftwidth=4 smartindent textwidth=0:
+partial alphanumeric_keys
+xkb_symbols "la-us" {
+
+    // This keymap is supposed to be intuitively usable on US keyboards, enabling
+    // more or less phonetic typing.
+
+    name[Group1]= "Lao-US";
+
+    key <TLDE> { [ asciitilde,  grave ] };
+    key <AE01> { [ 1, exclam, 0x1000ea2, 0x1000ec8 ] };         // digit one, tone mai ek
+    key <AE02> { [ 2, at, 0x1000ed2, 0x1000ec9] };              // digit two, tone mai tho
+    key <AE03> { [ 3, numbersign, 0x1000ed3, 0x1000eca ] };     // digit three, tone mai ti
+    key <AE04> { [ 4, dollar, 0x1000ed4, 0x1000ecb    ] };      // digit four, tone mai catawa
+    key <AE05> { [ 5, percent, 0x1000ed5, 0x1000ecc ] };        // digit five, cancellation mark
+    key <AE06> { [ 6, asciicircum, 0x1000ed6, asciicircum ] };  // digit six, asciicircum
+    key <AE07> { [ 7, ampersand, 0x1000ed7, ampersand ] };      // digit seven, ampersand
+    key <AE08> { [ 8, asterisk, 0x1000ed8, asterisk ] };        // digit eight, asterisk
+    key <AE09> { [ 9, parenleft, 0x1000ed9, parenleft ] };      // digit nine, parenleft
+    key <AE10> { [ 0, parenright, 0x1000ed0, parenright ] };    // digit zero, parenright
+    key <AE11> { [ minus, underscore, minus, 0x1000eaf ] };     // minus, ellipsis
+    key <AE12> { [ equal, plus ] }; };
+
+    key <AD01> { [ 0x1000ec3 ] };               // vowel sign ay
+    key <AD02> { [ 0x1000ec4 ] };               // vowel sign ai
+    key <AD03> { [ 0x1000ec0, 0x1000ec1 ] };    // vowel sign e, vowel sign ei
+    key <AD04> { [ 0x1000ea3 ] };               // letter ro (wrongly called "lo ling" in Unicode),
+    key <AD05> { [ 0x1000e95, 0x1000e96 ] };    // letter to, letter tho sung
+    key <AD06> { [ 0x1000ea2, 0x1000ebd ] };    // letter yo, semivowel sign nyo
+    key <AD07> { [ 0x1000eb8, 0x1000eb9 ] };    // vowel sign u, vowel sign uu
+    key <AD08> { [ 0x1000eb4, 0x1000eb5 ] };    // vowel sign i , vowel sign ii
+    key <AD09> { [ 0x1000ec2, 0x1000ecd ] };    // vowel sign o, niggahita
+    key <AD10> { [ 0x1000e9b, 0x1000e9c ] };    // letter po, letter pho sung
+    key <AD11> { [ bracketleft, braceleft ] };
+    key <AD12> { [ bracketright, braceright ] };
+    key <BKSL> { [ backslash, bar ] };
+
+    key <AC01> { [ 0x1000eb0, 0x1000eb2 ] };    // vowel sign a, vowel sign aa
+    key <AC02> { [ 0x1000e8a, 0x1000eaa ] };    // letter so tam, letter so sung
+    key <AC03> { [ 0x1000e94, 0x1000e97 ] };    // letter do, letter tho tham
+    key <AC04> { [ 0x1000e9f, 0x1000e9d ] };    // letter fo sung, letter fo tam
+    key <AC05> { [ 0x1000e87, 0x1000ec6 ] };    // letter ngo, ko la
+    key <AC06> { [ 0x1000eae, 0x1000eab ] };    // letter ho tam, letter ho sung
+    key <AC07> { [ 0x1000e8d ] };               // letter nyo, TODO
+    key <AC08> { [ 0x1000e81, 0x1000e82 ] };    // letter ko, letter kho sung
+    key <AC09> { [ 0x1000ea5, 0x1000ebc ] };    // letter lo loot, semivowel sign lo
+    key <AC10> { [ semicolon, colon ] };
+    key <AC11> { [ apostrophe, quotedbl ] };
+
+    key <AB01> { [ 0x1000ebb ] };               // vowel sign mai kon, TODO
+    key <AB02> { [ 0x1000e94, 0x1000eb1 ] };    // letter kho tam, vowel sign mai kan
+    key <AB03> { [ 0x1000e88, 0x1000ead ] };    // letter co, letter o
+    key <AB04> { [ 0x1000ea7 ] };               // letter wo, TODO
+    key <AB05> { [ 0x1000e9a, 0x1000e9e ] };    // letter bo, letter pho tam
+    key <AB06> { [ 0x1000e99, 0x1000edc ] };    // letter no, ho no
+    key <AB07> { [ 0x1000ea1, 0x1000edd ] };    // letter mo, ho mo
+    key <AB08> { [ comma, 0x1000eb6 ] };        // comma , vowel sign y
+    key <AB09> { [ period, 0x1000eb7 ] };       // period, vowel sign yy
+    key <AB10> { [ slash, question ] };
+};
