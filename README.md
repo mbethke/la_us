@@ -18,14 +18,17 @@ same spirit: you have ະ and າ on the "A" key, as that is how they sound; ກ
 
 This keymap is basically the same as the one for Windows with a few differences:
 
-* It's meant primarily for writing Lao, not putting the odd Lao character
-within English text, so Lao is in the main group (i.e. without using the Alt
-key)
-
+* It's meant primarily for writing Lao, not putting the odd Lao character within
+  English text, so Lao is in the main group (i.e. without using the Alt key)
 * Combining code points have been left out (e.g. you can't have "am" (ອໍາ) on a
-single key because a single key can only produce a single code point in XKB;
-you have to type it as O-A instead. Those few keys are marked TODO and I
-haven't decided what else to use them for yet.
+  single key because a single key can only produce a single code point in XKB;
+  you have to type it as O-A instead. Those few keys are marked TODO and I
+  haven't decided what else to use them for yet.
+* As Lao numerals seem to be used less frequently than the Arabic ones, the
+  latter are the same as on a US keyboard. With the shift key you get the usual
+  punctuation marks while Lao numerals can be reached with the alt key.
+  Alt+shift has a few Lao tone marks.
+
 
 ## How?
 
