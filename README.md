@@ -23,7 +23,7 @@ within English text, so Lao is in the main group (i.e. without using the Alt
 key)
 
 * Combining code points have been left out (e.g. you can't have "am" (ອໍາ) on a
-single key because a single letter can only produce a single code point in XKB;
+single key because a single key can only produce a single code point in XKB;
 you have to type it as O-A instead. Those few keys are marked TODO and I
 haven't decided what else to use them for yet.
 
