@@ -49,7 +49,7 @@ xkb_symbols "la-us" {
     key <AC11> { [ apostrophe, quotedbl ] };
 
     key <AB01> { [ 0x1000ebb ] };               // vowel sign mai kon, TODO
-    key <AB02> { [ 0x1000e94, 0x1000eb1 ] };    // letter kho tam, vowel sign mai kan
+    key <AB02> { [ 0x1000e84, 0x1000eb1 ] };    // letter kho tam, vowel sign mai kan
     key <AB03> { [ 0x1000e88, 0x1000ead ] };    // letter co, letter o
     key <AB04> { [ 0x1000ea7 ] };               // letter wo, TODO
     key <AB05> { [ 0x1000e9a, 0x1000e9e ] };    // letter bo, letter pho tam
