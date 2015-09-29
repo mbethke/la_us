@@ -16,7 +16,8 @@ keyboards](http://www.laosoftware.com/include/lus.jpg) have a layout in the
 same spirit: you have ະ and າ on the "A" key, as that is how they sound; ກ and
 ຂ are on "K", and so on.
 
-This keymap is basically the same as the one for Windows with a few differences:
+However, there are a few incosistencies in their keymap so this layout has come
+out a bit different after a bit of corpus research into Lao letter frequencies:
 
 * It's meant primarily for writing Lao, not putting the odd Lao character within
   English text, so Lao is in the main group (i.e. without using the Alt key)
@@ -24,11 +25,18 @@ This keymap is basically the same as the one for Windows with a few differences:
   single key because a single key can only produce a single code point in XKB;
   you have to type it as O-A instead. Those few keys are marked TODO and I
   haven't decided what else to use them for yet.
+* Long vowels aa, ee, ii and uu are all in non-shifted positions while the short
+  ones are shifted. The long ones are significantly more frequent so this helps
+  both consistency and typing speed.
 * As Lao numerals seem to be used less frequently than the Arabic ones, the
   latter are the same as on a US keyboard. With the shift key you get the usual
   punctuation marks while Lao numerals can be reached with the alt key.
   Alt+shift has a few Lao tone marks.
 
+There is an SVG version of the layout included, based on Wikipedia user
+Michka_B's [excellent hand-optimized US
+layout](https://commons.wikimedia.org/wiki/File:KB_USA-standard.svg), licensed
+under the [GNU FDL](https://gnu.org/licenses/fdl.html)
 
 ## How?
 
