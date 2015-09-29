@@ -9,7 +9,7 @@ xkb_symbols "la-us" {
     name[Group1]= "Lao-US";
 
     key <TLDE> { [ asciitilde,  grave ] };
-    key <AE01> { [ 1, exclam, 0x1000ea2, 0x1000ec8 ] };         // digit one, tone mai ek
+    key <AE01> { [ 1, exclam, 0x1000ed1, 0x1000ec8 ] };         // digit one, tone mai ek
     key <AE02> { [ 2, at, 0x1000ed2, 0x1000ec9] };              // digit two, tone mai tho
     key <AE03> { [ 3, numbersign, 0x1000ed3, 0x1000eca ] };     // digit three, tone mai ti
     key <AE04> { [ 4, dollar, 0x1000ed4, 0x1000ecb    ] };      // digit four, tone mai catawa
