@@ -29,9 +29,9 @@ out a bit different after a bit of corpus research into Lao letter frequencies:
   ones are shifted. The long ones are significantly more frequent so this helps
   both consistency and typing speed.
 * As Lao numerals seem to be used less frequently than the Arabic ones, the
-  latter are the same as on a US keyboard. With the shift key you get the usual
-  punctuation marks while Lao numerals can be reached with the alt key.
-  Alt+shift has a few Lao tone marks.
+  latter are the same as on a US keyboard. With the shift key you get the Lao
+  letters; Alt+NUM has a few tone marks and Alt+Shift+NUM gets you the usual US
+  keyboard punctuation marks.
 
 There is an SVG version of the layout included, based on Wikipedia user
 Michka_B's [excellent hand-optimized US

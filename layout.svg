@@ -376,51 +376,51 @@
     <text id="T_kb2a2" x="14"  y="18" class="T_size_L">~</text>
 
     <text id="T_kb2b1" x="68"  y="40" >1</text>
-    <text id="T_kb2b2" x="68"  y="20" >!</text> 
-    <text id="T_kb2b3" x="88"  y="40" >໑</text> 
-    <text id="T_kb2b4" x="88"  y="20" >◌່</text> 
+    <text id="T_kb2b3" x="68"  y="20" >໑</text> 
+    <text id="T_kb2b4" x="88"  y="40" >◌່</text> 
+    <text id="T_kb2b2" x="88"  y="20" >!</text> 
 
     <text id="T_kb2c1" x="122" y="40" >2</text>
-    <text id="T_kb2c2" x="122" y="20" >@</text>
-    <text id="T_kb2c3" x="142" y="40" >໒</text>
-    <text id="T_kb2c4" x="142" y="20" >◌້</text>
+    <text id="T_kb2c3" x="122" y="20" >໒</text>
+    <text id="T_kb2c4" x="142" y="40" >◌້</text>
+    <text id="T_kb2c2" x="142" y="20" >@</text>
 
     <text id="T_kb2d1" x="176" y="40" >3</text>
-    <text id="T_kb2d2" x="176" y="20" >#</text>
-    <text id="T_kb2d3" x="196" y="40" >໓</text>
-    <text id="T_kb2d4" x="196" y="20" >◌໊</text>
+    <text id="T_kb2d3" x="176" y="20" >໓</text>
+    <text id="T_kb2d4" x="196" y="40" >◌໊</text>
+    <text id="T_kb2d2" x="196" y="20" >#</text>
 
     <text id="T_kb2e1" x="230" y="40" >4</text>
-    <text id="T_kb2e2" x="230" y="20" >$</text>
-    <text id="T_kb2e3" x="250" y="40" >໔</text>
-    <text id="T_kb2e4" x="250" y="20" >◌໋</text>
+    <text id="T_kb2e3" x="230" y="20" >໔</text>
+    <text id="T_kb2e4" x="250" y="40" >◌໋</text>
+    <text id="T_kb2e2" x="250" y="20" >$</text>
     
     <text id="T_kb2f1" x="284" y="40" >5</text>
-    <text id="T_kb2f2" x="284" y="20" >%</text>
-    <text id="T_kb2f3" x="304" y="40" >໕</text>
-    <text id="T_kb2f4" x="304" y="20" >◌໌</text>
+    <text id="T_kb2f3" x="284" y="20" >໕</text>
+    <text id="T_kb2f4" x="304" y="40" >◌໌</text>
+    <text id="T_kb2f2" x="304" y="20" >%</text>
     
     <text id="T_kb2g1" x="338" y="40" >6</text>
-    <text id="T_kb2g2" x="338" y="22" class="T_size_L">^</text>
-    <text id="T_kb2g3" x="358" y="40" >໖</text>
+    <text id="T_kb2g3" x="338" y="20" >໖</text>
+    <text id="T_kb2g2" x="358" y="22" class="T_size_L">^</text>
     
     <text id="T_kb2h1" x="392" y="40" >7</text>
-    <text id="T_kb2h2" x="392" y="20" >&amp;</text>
-    <text id="T_kb2h3" x="412" y="40" >໗</text>
+    <text id="T_kb2h3" x="392" y="20" >໗</text>
+    <text id="T_kb2h2" x="412" y="20" >&amp;</text>
     
     <text id="T_kb2i1" x="446" y="40" >8</text>
-    <text id="T_kb2i2" x="446" y="20" >∗</text>
-    <text id="T_kb2i3" x="466" y="40" >໘</text>
+    <text id="T_kb2i3" x="446" y="20" >໘</text>
+    <text id="T_kb2i2" x="466" y="20" >∗</text>
     
     <text id="T_kb2j1" x="500" y="40" >9</text>
-    <text id="T_kb2j2" x="500" y="20" >(</text>
-    <text id="T_kb2j3" x="520" y="40" >໙</text>
+    <text id="T_kb2j3" x="500" y="20" >໙</text>
+    <text id="T_kb2j2" x="520" y="20" >(</text>
     
     <text id="T_kb2k1" x="554" y="40" >0</text>
-    <text id="T_kb2k2" x="554" y="20" >)</text>
-    <text id="T_kb2k3" x="574" y="40" >໐</text>
+    <text id="T_kb2k3" x="554" y="20" >໐</text>
+    <text id="T_kb2k2" x="574" y="20" >)</text>
     
-    <text id="T_kb2l1" x="610" y="40" >-</text>
+    <text id="T_kb2l1" x="605" y="40" >-</text>
     <text id="T_kb2l2" x="608" y="20" >_</text>
     <text id="T_kb2l4" x="628" y="20" >ຯ</text>
     

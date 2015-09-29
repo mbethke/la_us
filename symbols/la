@@ -9,17 +9,17 @@ xkb_symbols "la-us" {
     name[Group1]= "Lao-US";
 
     key <TLDE> { [ asciitilde,  grave ] };
-    key <AE01> { [ 1, exclam, 0x1000ed1, 0x1000ec8 ] };         // digit one, tone mai ek
-    key <AE02> { [ 2, at, 0x1000ed2, 0x1000ec9] };              // digit two, tone mai tho
-    key <AE03> { [ 3, numbersign, 0x1000ed3, 0x1000eca ] };     // digit three, tone mai ti
-    key <AE04> { [ 4, dollar, 0x1000ed4, 0x1000ecb    ] };      // digit four, tone mai catawa
-    key <AE05> { [ 5, percent, 0x1000ed5, 0x1000ecc ] };        // digit five, cancellation mark
-    key <AE06> { [ 6, asciicircum, 0x1000ed6, asciicircum ] };  // digit six, asciicircum
-    key <AE07> { [ 7, ampersand, 0x1000ed7, ampersand ] };      // digit seven, ampersand
-    key <AE08> { [ 8, asterisk, 0x1000ed8, asterisk ] };        // digit eight, asterisk
-    key <AE09> { [ 9, parenleft, 0x1000ed9, parenleft ] };      // digit nine, parenleft
-    key <AE10> { [ 0, parenright, 0x1000ed0, parenright ] };    // digit zero, parenright
-    key <AE11> { [ minus, underscore, minus, 0x1000eaf ] };     // minus, ellipsis
+    key <AE01> { [ 1, 0x1000ed1, 0x1000ec8, exclam ] };         // digit one, tone mai ek
+    key <AE02> { [ 2, 0x1000ed2, 0x1000ec9, at ] };             // digit two, tone mai tho
+    key <AE03> { [ 3, 0x1000ed3, 0x1000eca, numbersign ] };     // digit three, tone mai ti
+    key <AE04> { [ 4, 0x1000ed4, 0x1000ecb, dollar ] };         // digit four, tone mai catawa
+    key <AE05> { [ 5, 0x1000ed5, 0x1000ecc, percent ] };        // digit five, cancellation mark
+    key <AE06> { [ 6, 0x1000ed6 ], [], [ asciicircum ] };       // digit six
+    key <AE07> { [ 7, 0x1000ed7 ], [], [ ampersand ] };         // digit seven
+    key <AE08> { [ 8, 0x1000ed8, asterisk, asterisk ] };        // digit eight
+    key <AE09> { [ 9, 0x1000ed9, parenleft ] };                 // digit nine
+    key <AE10> { [ 0, 0x1000ed0, parenright ] };                // digit zero
+    key <AE11> { [ minus, underscore, 0x1000eaf ] };            // ellipsis
     key <AE12> { [ equal, plus ] };
 
     key <AD01> { [ 0x1000ec3 ] };               // vowel sign ay
