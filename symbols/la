@@ -20,7 +20,7 @@ xkb_symbols "la-us" {
     key <AE09> { [ 9, parenleft, 0x1000ed9, parenleft ] };      // digit nine, parenleft
     key <AE10> { [ 0, parenright, 0x1000ed0, parenright ] };    // digit zero, parenright
     key <AE11> { [ minus, underscore, minus, 0x1000eaf ] };     // minus, ellipsis
-    key <AE12> { [ equal, plus ] }; };
+    key <AE12> { [ equal, plus ] };
 
     key <AD01> { [ 0x1000ec3 ] };               // vowel sign ay
     key <AD02> { [ 0x1000ec4 ] };               // vowel sign ai
