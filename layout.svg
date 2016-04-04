@@ -293,12 +293,16 @@
 <g inkscape:groupmode="layer" id="la-us" inkscape:label="incriptions" sodipodi:insensitive="true" style="display:inline">
   
   <g id="T_stdletters">
-    <text id="T_kb3b1" x="96"  y="90"  >ໃ</text>
+
+    <text id="T_kb3b1" x="96"  y="90" >◌່</text> 
+    <text id="T_kb3b2" x="96"  y="70" >◌້</text>
 
     <text id="T_kb3c1" x="150" y="90"  >ໄ</text>
+    <text id="T_kb3c2" x="150" y="70"  >ໃ</text>
 
     <text id="T_kb3d1" x="204" y="90"  >ເ</text>
     <text id="T_kb3d2" x="204" y="70"  >ແ</text>
+    <text id="T_kb3d1" x="224" y="90"  >◌ັ</text>
     
     <text id="T_kb3e1" x="258" y="90"  >ຣ</text>
 
@@ -316,6 +320,7 @@
 
     <text id="T_kb3j1" x="528" y="90"  >ໂ</text>
     <text id="T_kb3j2" x="528" y="70"  >◌ໍ</text>
+    <text id="T_kb3j3" x="548" y="90" >◌ົ</text>
 
     <text id="T_kb3k1" x="582" y="90"  >ປ</text>
     <text id="T_kb3k2" x="582" y="70"  >ຜ</text>

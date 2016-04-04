@@ -16,8 +16,9 @@ keyboards](http://www.laosoftware.com/include/lus.jpg) have a layout in the
 same spirit: you have ະ and າ on the "A" key, as that is how they sound; ກ and
 ຂ are on "K", and so on.
 
-However, there are a few incosistencies in their keymap so this layout has come
-out a bit different after a bit of corpus research into Lao letter frequencies:
+However, there are a few inconsistencies and less than practical arrangements in
+their keymap so this layout has come out a bit different after a some corpus
+research into Lao letter frequencies:
 
 * It's meant primarily for writing Lao, not putting the odd Lao character within
   English text, so Lao is in the main group (i.e. without using the Alt key)
@@ -30,8 +31,13 @@ out a bit different after a bit of corpus research into Lao letter frequencies:
   both consistency and typing speed.
 * As Lao numerals seem to be used less frequently than the Arabic ones, the
   latter are the same as on a US keyboard. With the shift key you get the Lao
-  letters; Alt+NUM has a few tone marks and Alt+Shift+NUM gets you the usual US
-  keyboard punctuation marks.
+  equivalents; Alt+NUM has a few tone marks and Alt+Shift+NUM gets you the usual
+  US keyboard punctuation marks.
+* You get mai kan and mai kon on x and z as on Windows, but they are also on
+  AltGr-a and AltGr-o because that's where they belong phonetically.
+* Tone marks mai ek and mai tho are on 1 and 2 as on Windows, too, but also on q
+  and Q respectively for easier access without AltGr. Being very similar
+  phonetically, ay and ai both go on the W key.
 
 There is an SVG version of the layout included, based on Wikipedia user
 Michka_B's [excellent hand-optimized US
