@@ -22,10 +22,6 @@ research into Lao letter frequencies:
 
 * It's meant primarily for writing Lao, not putting the odd Lao character within
   English text, so Lao is in the main group (i.e. without using the Alt key)
-* Keys with multiple combining code points have been left out. E.g. you can't
-  have "am" (ອໍາ) on a single key because in XKB a single key can only ever
-  produce a single code point; you have to type it as O-A instead. Those few
-  keys are marked TODO and I haven't decided what else to use them for yet.
 * Long vowels aa, ee, ii and uu are all in non-shifted positions while the short
   ones are shifted. The long ones are significantly more frequent so this helps
   both consistency and typing speed.
