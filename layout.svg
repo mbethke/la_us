@@ -302,7 +302,6 @@
 
     <text id="T_kb3d1" x="204" y="90"  >ເ</text>
     <text id="T_kb3d2" x="204" y="70"  >ແ</text>
-    <text id="T_kb3d1" x="224" y="90"  >◌ັ</text>
     
     <text id="T_kb3e1" x="258" y="90"  >ຣ</text>
 
@@ -328,6 +327,7 @@
 
     <text id="T_kb4c1" x="112" y="140" >າ</text>
     <text id="T_kb4c2" x="112" y="120" >ະ</text>
+    <text id="T_kb4c3" x="132" y="140" >◌ັ</text>
 
     <text id="T_kb4d1" x="166" y="140" >ຊ</text>
     <text id="T_kb4d2" x="166" y="120" >ສ</text>
