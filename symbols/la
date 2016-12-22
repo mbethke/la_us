@@ -30,13 +30,13 @@ xkb_symbols "la-us" {
     key <AD06> { [ 0x1000ea2, 0x1000ebd ] };    // letter yo, semivowel sign nyo
     key <AD07> { [ 0x1000eb9, 0x1000eb8 ] };    // vowel sign uu, vowel sign u
     key <AD08> { [ 0x1000eb5, 0x1000eb4 ] };    // vowel sign ii, vowel sign i
-    key <AD09> { [ 0x1000ec2, 0x1000ecd ], [ 0x1000ebb ] };    // vowel sign o, niggahita, vowel sign mai kon
+    key <AD09> { [ 0x1000ec2, 0x1000ecd, 0x1000ebb ] };    // vowel sign o, niggahita, vowel sign mai kon
     key <AD10> { [ 0x1000e9b, 0x1000e9c ] };    // letter po, letter pho sung
     key <AD11> { [ bracketleft, braceleft ] };
     key <AD12> { [ bracketright, braceright ] };
     key <BKSL> { [ backslash, bar ] };
 
-    key <AC01> { [ 0x1000eb2, 0x1000eb0], [ 0x1000eb1 ] }; // vowel sign aa, vowel sign a, vowel sign mai kan
+    key <AC01> { [ 0x1000eb2, 0x1000eb0, 0x1000eb1 ] }; // vowel sign aa, vowel sign a, vowel sign mai kan
     key <AC02> { [ 0x1000e8a, 0x1000eaa ] };    // letter so tam, letter so sung
     key <AC03> { [ 0x1000e94, 0x1000e97 ] };    // letter do, letter tho tham
     key <AC04> { [ 0x1000e9f, 0x1000e9d ] };    // letter fo sung, letter fo tam
