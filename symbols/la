@@ -48,8 +48,8 @@ xkb_symbols "la-us" {
     key <AC10> { [ semicolon, colon ] };
     key <AC11> { [ apostrophe, quotedbl ] };
 
-    key <AB01> { [ 0x1000eb3, 0x1000ebb ] };    // vowel sign am, vowel sign mai kon
-    key <AB02> { [ 0x1000e84, 0x1000eb1 ] };    // letter kho tam, vowel sign mai kan
+    key <AB01> { [ 0x1000eb3, 0x1000eb1 ] };    // vowel sign am, vowel sign mai kan
+    key <AB02> { [ 0x1000e84, 0x1000ebb ] };    // letter kho tam, vowel sign mai kon
     key <AB03> { [ 0x1000e88, 0x1000ead ] };    // letter co, letter o
     key <AB04> { [ 0x1000ea7 ] };               // letter wo, TODO
     key <AB05> { [ 0x1000e9a, 0x1000e9b ] };    // letter bo, letter po
