@@ -41,7 +41,7 @@ xkb_symbols "la-us" {
     key <AC03> { [ 0x1000e94, 0x1000e95 ] };    // letter do, letter to
     key <AC04> { [ 0x1000e9f, 0x1000e9d ] };    // letter fo sung, letter fo tam
     key <AC05> { [ 0x1000e81, 0x1000e87 ] };    // letter ko, letter ngo
-    key <AC06> { [ 0x1000eae, 0x1000eab ] };    // letter ho tam, letter ho sung
+    key <AC06> { [ 0x1000eab, 0x1000eae ] };    // letter ho sung, letter ho tam
     key <AC07> { [ 0x1000e8d, 0x1000ea2 ] };    // letter nyo, letter yo
     key <AC08> { [ 0x1000e82, 0x1000e84 ] };    // letter kho sung, letter kho tam
     key <AC09> { [ 0x1000ea5, 0x1000ebc ] };    // letter lo loot, semivowel sign lo
