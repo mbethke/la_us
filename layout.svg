@@ -309,8 +309,8 @@
     <text id="T_kb3f1" x="312" y="90"  >ທ</text>
     <text id="T_kb3f2" x="312" y="70"  >ຖ</text>
 
-    <text id="T_kb3g1" x="366" y="90"  >ຢ</text>
-    <text id="T_kb3g2" x="366" y="70"  >ຽ</text>
+    <text id="T_kb3g1" x="366" y="90"  >◌ື</text>
+    <text id="T_kb3g2" x="366" y="70"  >◌ຶ</text>
 
     <text id="T_kb3h1" x="420" y="88"  >◌ູ</text>
     <text id="T_kb3h2" x="420" y="70"  >◌ຸ</text>
@@ -339,16 +339,17 @@
     <text id="T_kb4f1" x="274" y="140" >ຟ</text>
     <text id="T_kb4f2" x="274" y="120" >ຝ</text>
 
-    <text id="T_kb4g1" x="328" y="140" >ງ</text>
+    <text id="T_kb4g1" x="328" y="140" >ກ</text>
+    <text id="T_kb4g2" x="328" y="120" >ງ</text>
 
     <text id="T_kb4h1" x="382" y="140" >ຮ</text>
     <text id="T_kb4h2" x="382" y="120" >ຫ</text>
 
     <text id="T_kb4i1" x="436" y="140" >ຍ</text>
-    <text id="T_kb4i2" x="436" y="120" >ຍ</text>
+    <text id="T_kb4i2" x="436" y="120" >ຢ</text>
 
-    <text id="T_kb4j1" x="490" y="140" >ກ</text>
-    <text id="T_kb4j2" x="490" y="120" >ຂ</text>
+    <text id="T_kb4j1" x="490" y="140" >ຂ</text>
+    <text id="T_kb4j2" x="490" y="120" >ຄ</text>
 
     <text id="T_kb4k1" x="544" y="140" >ລ</text>
     <text id="T_kb4k2" x="544" y="120" >◌ຼ</text>
@@ -357,7 +358,7 @@
     <text id="T_kb5c1" x="136" y="192" >◌ຳ</text>
     <text id="T_kb5c2" x="132" y="172" >◌ັ</text>
 
-    <text id="T_kb5d1" x="186" y="192" >ຄ</text>
+    <text id="T_kb5d1" x="186" y="190" >ຽ</text>
     <text id="T_kb5d2" x="186" y="172" >◌ົ</text>
 
     <text id="T_kb5e1" x="240" y="192" >ຈ</text>
@@ -442,10 +443,10 @@
     <text id="T_kb4m1" x="652" y="142" class="T_size_L">'</text>
 
     <text id="T_kb5j1" x="508" y="190" >,</text>
-    <text id="T_kb5j2" x="508" y="170" >◌ຶ</text>
+    <text id="T_kb5j2" x="508" y="170" ></text>
 
     <text id="T_kb5k1" x="562" y="192" >.</text>
-    <text id="T_kb5k2" x="562" y="170" >◌ື</text>
+    <text id="T_kb5k2" x="562" y="170" ></text>
 
     <text id="T_kb5l1" x="616" y="192" >/</text>
 
