@@ -37,7 +37,7 @@ xkb_symbols "la-us" {
     key <BKSL> { [ backslash, bar ] };
 
     key <AC01> { [ 0x1000eb2, 0x1000eb0, 0x1000eb1 ] }; // vowel sign aa, vowel sign a, vowel sign mai kan
-    key <AC02> { [ 0x1000e8a, 0x1000eaa ] };    // letter so tam, letter so sung
+    key <AC02> { [ 0x1000eaa, 0x1000e8a ] };    // letter so sung, letter so tam
     key <AC03> { [ 0x1000e94, 0x1000e95 ] };    // letter do, letter to
     key <AC04> { [ 0x1000e9f, 0x1000e9d ] };    // letter fo sung, letter fo tam
     key <AC05> { [ 0x1000e81, 0x1000e87 ] };    // letter ko, letter ngo
