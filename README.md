@@ -8,17 +8,18 @@ rather as close to phonetically as possible.
 
 ## What?
 
-If you know the Cyrillic "YAWERTY" keyboard, you know how this works: the "ess"
-sound in Russian is a letter that looks like a Latin C (с) but YAWERTY has it
-on the "S" key, so you can just type more or less like a word sounds and you
-get the right Cyrillic letters. The [Lao Software Windows
-keyboards](http://www.laosoftware.com/include/lus.jpg) have a layout in the
-same spirit: you have ະ and າ on the "A" key, as that is how they sound; ກ and
-ຂ are on "K", and so on.
+For someone who doesn't speak Lao natively (and, I suspect, even for those who
+do), the organization of keys on the standard Lao STEA keyboard is highly
+unintuitive, so without a printed keymap, writing is impossible on an
+international keyboard. There have been several proposed keymaps for US
+and French keyboards that place Lao characters on the keys with similar-sounding
+Latin characters (see [GMSware's LaoWord page for an
+overview](http://www.gmsware.org/Common/GMSWord/Contents/Lao/LaoWord-en.htm)),
+but none of these are very consistent nor optimized with regard to easy access
+to the most frequent characters.
 
-However, there are a few inconsistencies and less than practical arrangements in
-their keymap so this layout has come out a bit different after a some corpus
-research into Lao letter frequencies:
+This layout used to be a port of the LaoWord one to XKB but has since been
+sustantially redesigned using corpus research into Lao letter frequencies.
 
 * It's meant primarily for writing Lao, not putting the odd Lao character within
   English text, so Lao is in the main group (i.e. without using the Alt key)
@@ -31,9 +32,12 @@ research into Lao letter frequencies:
   US keyboard punctuation marks.
 * You get ◌ັ and ◌ົ on x and z as on Windows, but they are also on
   AltGr-a and AltGr-o because that's where they belong phonetically.
-* Tone marks ◌່	and ◌້ are on 1 and 2 as on Windows, too, but also on q
-  and Q respectively for easier access without AltGr. Being very similar
-  phonetically, ໄ and ໃ both go on the W key.
+* Tone marks ◌່ and ◌້ are on 1 and 2 as on Windows, but also on q and Q
+  respectively for easier access without AltGr. Being very similar phonetically,
+  ໄ and ໃ both go on the W key.
+* Generally (for letters so/fo/ho/kho), the Sung variant is found in the
+  unshifted position and Tam is shifted. Exceptions are Pho and Tho where the
+  Tam variant is the nmore frequent one.
 
 There is an SVG version of the layout included, based on Wikipedia user
 Michka_B's [excellent hand-optimized US
@@ -77,4 +81,5 @@ another one like this:
       </configItem>
     </variant>
  
-Make sure the new section sits between the `<variantList>` tags! This should enable a new variant in your keyboard layout chooser.
+Make sure the new section sits between the `<variantList>` tags! This should
+enable a new variant in your keyboard layout chooser.
