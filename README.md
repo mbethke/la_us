@@ -37,7 +37,7 @@ sustantially redesigned using corpus research into Lao letter frequencies.
   ໄ and ໃ both go on the W key.
 * Generally (for letters so/fo/ho/kho), the Sung variant is found in the
   unshifted position and Tam is shifted. Exceptions are Pho and Tho where the
-  Tam variant is the nmore frequent one.
+  Tam variant is the more frequent one.
 
 There is an SVG version of the layout included, based on Wikipedia user
 Michka_B's [excellent hand-optimized US
