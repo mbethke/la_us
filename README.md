@@ -1,6 +1,6 @@
 # la_us
 
-## An attempt at a phonetically intuitive Lao keymap for XKB and US keyboards
+## A phonetically intuitive Lao keymap for XKB and US keyboards
 
 This is a keymap designed to write Lao on a US keyboard under X11 without
 learning a complete new layout such as the STEA one that comes with XKB, but
@@ -19,7 +19,7 @@ but none of these are very consistent nor optimized with regard to easy access
 to the most frequent characters.
 
 This layout used to be a port of the LaoWord one to XKB but has since been
-sustantially redesigned using corpus research into Lao letter frequencies.
+substantially redesigned using corpus research into Lao letter frequencies.
 
 * It's meant primarily for writing Lao, not putting the odd Lao character within
   English text, so Lao is in the main group (i.e. without using the Alt key)
@@ -37,7 +37,8 @@ sustantially redesigned using corpus research into Lao letter frequencies.
   ໄ and ໃ both go on the W key.
 * Generally (for letters so/fo/ho/kho), the Sung variant is found in the
   unshifted position and Tam is shifted. Exceptions are Pho and Tho where the
-  Tam variant is the more frequent one.
+  Tam variant is the more frequent one, so I chose typing speed over consistency
+  here.
 
 There is an SVG version of the layout included, based on Wikipedia user
 Michka_B's [excellent hand-optimized US
@@ -45,6 +46,20 @@ layout](https://commons.wikimedia.org/wiki/File:KB_USA-standard.svg), licensed
 under the [GNU FDL](https://gnu.org/licenses/fdl.html)
 
 ## How?
+
+### Wayland
+
+Wayland itself doesn't deal with keymap loading but compositors usually
+implement their own keymap handling. [Sway](https://github.com/swaywm/sway) can
+load custom keymaps with
+```
+input "type:keyboard" {
+    xkb_file ~/.config/xkb/custom
+}
+```
+I have no experience with other compositors, so additions are welcome.
+
+### X11
 
 Unfortunately, there seems to be no way of installing per-user XKB variants
 that would show up in common keyboard setup tools such as GNOME's, so you need
@@ -83,3 +98,7 @@ another one like this:
  
 Make sure the new section sits between the `<variantList>` tags! This should
 enable a new variant in your keyboard layout chooser.
+
+Note: libxkb definitely looks in `~/.xkb/symbols/` as well, so putting the `la`
+file there might work. It didn't work for me, but perhaps that's my distro's
+problem.
