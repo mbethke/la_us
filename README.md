@@ -50,14 +50,11 @@ under the [GNU FDL](https://gnu.org/licenses/fdl.html)
 ### Wayland
 
 Wayland itself doesn't deal with keymap loading but compositors usually
-implement their own keymap handling. [Sway](https://github.com/swaywm/sway) can
-load custom keymaps with
-```
-input "type:keyboard" {
-    xkb_file ~/.config/xkb/custom
-}
-```
-I have no experience with other compositors, so additions are welcome.
+implement their own keymap handling. [Sway](https://github.com/swaywm/sway) for
+instance looks for layouts in `~/.config/xkb` and `~/.xkb`, so simply copy both
+the "keymaps" and "symbols" directories to one of those locations. I have no
+idea about other compositors but those locations seem to be common sense and I'd
+expect them to behave very similar.
 
 ### X11
 
